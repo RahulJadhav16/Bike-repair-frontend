@@ -1,0 +1,231 @@
+.container{
+    width: 1024px;
+    
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+html{
+    background-image: linear-gradient(rgb(246, 87, 113), #FFCC70);
+}
+a{
+    color: rgb(243, 41, 75);
+    text-decoration: none;
+}
+body{
+   background-image: url(imges/image-lion-background.png);
+   background-repeat: no-repeat;
+   background-position: top center;
+    margin-top: 20px;
+  
+    
+}
+
+header{
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+main{
+    min-height: 300px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    margin-bottom: 10px;
+    min-height: 300px;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+}
+.card1{
+    background-image: url(imges/image-background-card1.jpg);
+    background-size: cover;
+    min-height: 200px;
+    width:30.3%;
+}
+.card2{
+    background-image: url(imges/image-background-card2.jpg);
+
+    min-height: 200px;
+    width:30.3%;
+}
+.card3{
+    background-image: url(imges/image-background-card3.jpg);
+
+    min-height: 200px;
+    width:30.3%;
+}
+.hreobox1{
+    height: 50%;
+    
+    flex: 2;
+}
+
+.herebox2{
+    
+    height: 50%;
+    
+    flex: 1;
+}
+h1{
+
+    font-size: 90px;
+    color:aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    margin-top: 6px;
+    margin-right: 3px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cards p{
+
+    margin: 10px 30px 20px 30px;
+
+    font-size: 0.85rem;
+}
+.cards h2{
+    margin-top: 10px;
+    font-family: serif;;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.cards i{
+    margin-top: 18px;
+    font-size: 100px;
+    color: white;
+}
+
+.cards a{
+    text-decoration: none;
+}
+
+
+.mybtn{
+    margin-top: 10px;
+    padding: 11px 10px 11px 10px;
+    border-radius: 13px;
+    
+    
+    background-color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans','Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+main a:hover {
+    background-color: pink;
+    color: azure;
+  }
+
+  nav a {
+    margin-top: 10px;
+    padding: 11px 10px 11px 10px;
+    border-radius: 13px;
+    
+    
+    background-color: transparent;
+    color: white;
+    border: solid 1px;
+    font-size: 15px;
+    font-family: 'Lucida Sans','Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+  }
+
+  nav a:hover{
+    background-color: pink;
+    color: black
+
+  }
+  a.mybtn{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .review{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    background-color: transparent;
+    
+    justify-content: space-between;
+  }
+  .review h3{
+    margin-top: 10px;
+  }
+  .review1{
+    
+    text-align: center;
+    border: solid 1px white;
+    padding: 10px 10px 10px 10px;
+  }
+  .review1:hover{
+    border: solid 1px black;
+  }
+  .review2:hover{
+    border: solid 1px black;
+  }
+ 
+ 
+  .review2{
+    margin-left: 25px;
+    text-align: center;
+    border: solid 1px white;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .user{
+    display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    
+  }
+#name{
+    
+    margin-bottom: 25px;
+}
+#email{
+    margin-bottom: 25px;
+}
+
+.user:hover{
+    border: solid 2px black;
+}
+
+.user .mybtn:hover{
+    background-color: pink;
+    color: black;
+
+}
+
+  
+
+  
+
+
+
